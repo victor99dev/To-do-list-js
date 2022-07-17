@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tarefas do dia</title>
+</head>
+<body>
+    <div class="group">
+        <h1>Tarefas do dia</h1>
+        <div id="list">
+            <form id="task-form">
+                <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa" />
+                <button class="button" type="submit">Adicionar</button>
+            </form>
+            <div id="tasks"></div>
+            <div>
+                <button class="submit_2" onclick="window.location.reload()">Nova Lista</button>
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <p>&copy; 2022 | Desafio DIO: To-do list</p>
+        <p>Desenvolvido por: <a href="https://victor99dev.site/" target="_blank">Victor Hugo - Victordev99</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

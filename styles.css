@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #DCDCDC;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #A9A9A9;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+
+button:hover {
+  background-color: #fff;
+  color:#A9A9A9
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:	#FFFAFA;
+  width: 20%;
+  padding: 1.3rem 1.3rem;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+.submit_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: #FF0000;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;    
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: rgb(160, 160, 160);
+  transition: all 0.4s ease;
+}
+
+@media (max-width: 1024px) {
+  .contador {
+      width: 100%;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .group {
+      width: 80%;
+  }
+}
